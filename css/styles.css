@@ -164,8 +164,11 @@ input[type="radio"].visually-hidden {
   -webkit-box-align: baseline;
   -ms-flex-align: baseline;
   align-items: baseline;
+}
+.header__navigation {
   margin-bottom: 164px;
 }
+
 .navigation__logo {
   color: inherit;
   font-family: var(--main-font);
