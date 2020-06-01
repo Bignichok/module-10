@@ -200,7 +200,7 @@ input[type="radio"].visually-hidden {
   font-size: 14px;
 }
 
-.navigation-list__item:not(:last-child) {
+.navigation-list__item {
   margin-right: 54px;
 }
 
@@ -216,8 +216,10 @@ input[type="radio"].visually-hidden {
   color: rgb(252, 227, 138);
   border-bottom: 3px solid rgb(252, 227, 138);
 }
-
-.navigation-list__item-button {
+.cart-button {
+  margin-right: 54px;
+}
+.service-button {
   display: block;
   width: 20px;
   height: 20px;
@@ -225,7 +227,7 @@ input[type="radio"].visually-hidden {
   background-color: transparent;
 }
 
-.navigation-list__item-button svg {
+.service-button svg {
   display: block;
   width: 20px;
   height: 20px;
@@ -235,7 +237,7 @@ input[type="radio"].visually-hidden {
   transition: all ease-in-out 0.3s;
 }
 
-.navigation-list__item-button:hover svg {
+.service-button:hover svg {
   fill: rgb(252, 227, 138);
   -ms-transform: scale(2);
   -webkit-transform: scale(2);
@@ -644,7 +646,7 @@ input[type="radio"].visually-hidden {
   color: rgb(204, 204, 204);
 }
 
-.form__input:invalid {
+.form__input:invalid:not(:placeholder-shown) {
   border: 1px solid #f38181;
 }
 
