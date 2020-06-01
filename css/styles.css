@@ -216,11 +216,14 @@ input[type="radio"].visually-hidden {
   color: rgb(252, 227, 138);
   border-bottom: 3px solid rgb(252, 227, 138);
 }
+.navigation-wrp {
+  display: flex;
+}
 .cart-button {
   margin-right: 54px;
 }
 .service-button {
-  display: block;
+  display: inline-block;
   width: 20px;
   height: 20px;
   border: none;
